@@ -35,7 +35,7 @@ const ollama = {
     { commitType, customMessageConvention, language }
   ) => {
     return (
-      `Write a SHORT and CONCISE git commit message (1-2 lines max) based on the diff below in ${language} language` +
+      `Write a CONCISE git commit message based on the diff below in ${language} language` +
       (commitType ? ` with commit type '${commitType}'. ` : ". ") +
       "Your entire response must be just the commit message, no other text. " +
       "Use the present tense and follow conventional commits format (<type>: <subject>)" +

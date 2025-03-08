@@ -15,4 +15,5 @@ export const AI_PROVIDER = args.PROVIDER || process.env.PROVIDER || "openai";
  * name of the model to use.
  * can use this to switch between different local models.
  */
-export const MODEL = args.MODEL || process.env.MODEL || "codellama:7b";
+// export const MODEL = args.MODEL || process.env.MODEL || "codellama:7b";
+export const MODEL = args.MODEL || process.env.MODEL || "deepseek-r1:latest";
